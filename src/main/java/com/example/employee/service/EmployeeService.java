@@ -39,6 +39,6 @@ public class EmployeeService {
     }
 
     public void deleteEmployee(Long id){
-        employeeRepository.deleteEmployee(id);
+        employeeRepository.deleteById(id);
     }
 }
